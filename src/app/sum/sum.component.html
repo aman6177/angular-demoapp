@@ -1,0 +1,11 @@
+<h1>Sum Example</h1>
+
+<p>Num1: <input type="number" [(ngModel)]="num1" ></p>
+<p>Num2: <input type="number" [(ngModel)]="num2"></p>
+
+<button (click)="sum()">
+    Click Me
+ </button>
+ <p *ngIf="showSum">SUM is {{ sumData | sum:'number' }}</p>
+
+

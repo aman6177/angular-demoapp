@@ -1,0 +1,12 @@
+{
+    "posts": [
+      { "id": 1, "title": "Agile Web Development with Rails", "author": "Sam Ruby, Dave Thomas, David Heinemeier Hansson" },
+	   { "id": 2, "title": "Flask Web Development", "author": "N/A" },
+	    { "id": 3, "title": "Alex Homer, ASP.NET 2.0 Visual Web Developer 2005", "author": "David Sussman" },
+		 { "id": 4, "title": "Professional JavaScript for Web Developers", "author": "Nicholas C. Zakas" }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+  }

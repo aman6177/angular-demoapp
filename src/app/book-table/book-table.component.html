@@ -1,0 +1,13 @@
+<p>book-table works!</p>
+
+<table>
+    <tr>
+      <th>Book Name</th>
+      <th></th>
+    </tr>
+    <tr *ngFor="let book of bookList">
+      <td>{{book}}</td>
+      <td *ngIf="buttonShow"><input type="button" value="Select" 
+        (click)="bookSelected(book)"></td>
+    </tr>
+</table>

@@ -1,0 +1,21 @@
+<button type="button" routerLink="">Home</button>
+<button type="button" routerLink="/child-parent">child-parent</button>
+<button type="button" routerLink="/parent-child">parent-child</button>
+<button type="button" routerLink="/sum">sum</button>
+<button type="button" routerLink="/observables">observables</button>
+<button type="button" (click)="show()">Custom Directive</button>
+<button type="button" routerLink="/onpush">On Push</button>
+
+
+<button type="button" routerLink="/customers">Customers Lazy Load</button>
+<button type="button" routerLink="/orders">Orders Lazy Load</button>
+
+<div *ngIf="showCustomDirective">
+    <h1 *appNot="true">True</h1>
+    <h1 *appNot="false">False</h1>
+</div>
+
+
+
+<router-outlet></router-outlet>
+
